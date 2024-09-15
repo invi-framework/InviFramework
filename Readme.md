@@ -1,6 +1,6 @@
 # InviFramework - A framework for FiveM Roleplaying
 
-![inviFramework](https://your-image-url.com/logo.png) <!-- Optional: Add a logo or banner image -->
+![inviFramework](https://cdn.discordapp.com/attachments/852996332662685747/1284886870672670934/inviprojectsbg2.png?ex=66e843a6&is=66e6f226&hm=2534ce0ae0a52ad5aa46f97f5d8f831a04388114d6be0dc1b193bc01efdf1b70&) <!-- Optional: Add a logo or banner image -->
 
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/your-username/inviFramework) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/your-username/inviFramework/issues)
 
