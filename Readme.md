@@ -25,7 +25,7 @@
 - 🌐 **Multi-language Support**: Localization ready for multiple languages.
 
 ## RELEASE
-** COMING 2025 **
+**COMING 2025**
 
 ## License
 
