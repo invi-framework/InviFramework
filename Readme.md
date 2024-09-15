@@ -23,3 +23,7 @@
 - 🛡️ **Gangs and Criminal Enterprises**: Create or join gangs, engage in illegal activities, and evade law enforcement.
 - 🗨️ **Dynamic Chat System**: Supports voice chat, text chat, and various communication modes (radio, megaphone, etc.).
 - 🌐 **Multi-language Support**: Localization ready for multiple languages.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
