@@ -5,7 +5,9 @@
 ██║██║ ╚████║ ╚████╔╝ ██║    ██║     ██║  ██║██║  ██║██║ ╚═╝ ██║███████╗╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
 ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
                                                                                                            
-Sure! Here's a sample README file for your **inviFramework**. This template includes a brief description, installation steps, features, and other relevant sections for showcasing your FiveM framework.
+
+
+Here’s a GitHub-friendly version of the README file, formatted with Markdown for GitHub and including some additional touches like badges and an optional section for a demo or screenshots.
 
 ---
 
@@ -13,19 +15,21 @@ Sure! Here's a sample README file for your **inviFramework**. This template incl
 
 ![inviFramework](https://your-image-url.com/logo.png) <!-- Optional: Add a logo or banner image -->
 
-A powerful and customizable FiveM framework for creating multiplayer roleplay servers. **inviFramework** is designed to be efficient, scalable, and user-friendly, with everything you need to build the ultimate FiveM server experience.
+[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/your-username/inviFramework) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/your-username/inviFramework/issues)
+
+**inviFramework** is a lightweight and customizable framework for FiveM servers, designed for performance and flexibility. Whether you're building a roleplay server or a competitive game mode, inviFramework has the tools you need to succeed.
 
 ## Features
 
-- 🛠️ **Customizable and modular structure**
-- ⚡ **Optimized for performance**
-- 🔒 **Built-in security features**
-- 💬 **Advanced chat and interaction system**
-- 🌎 **Support for multiple languages**
-- 📝 **Configurable job and economy system**
-- 🚔 **Advanced police, EMS, and legal systems**
-- 🎮 **Extensive plugin support**
-- 🌐 **Server-side and client-side scripts**
+- 🛠️ **Modular and customizable structure**
+- ⚡ **Highly optimized for low-latency gameplay**
+- 🔒 **Security-focused with anti-cheat mechanisms**
+- 💬 **Enhanced chat and player interaction system**
+- 🌍 **Localization and multi-language support**
+- 📝 **Fully configurable jobs and economy system**
+- 🚔 **Advanced legal systems: police, EMS, etc.**
+- 🎮 **Compatible with multiple FiveM plugins**
+- 🌐 **Server-side and client-side scripting**
 
 ## Table of Contents
 
@@ -33,6 +37,7 @@ A powerful and customizable FiveM framework for creating multiplayer roleplay se
 - [Requirements](#requirements)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -40,91 +45,25 @@ A powerful and customizable FiveM framework for creating multiplayer roleplay se
 
 ### Prerequisites
 
-Ensure that you have the following installed before setting up inviFramework:
+Before installing **inviFramework**, make sure you have the following:
 
-- **FiveM Server** ([Download FiveM](https://fivem.net))
-- **MySQL Database** ([Download MySQL](https://www.mysql.com/downloads/))
-- **ESX/QBCore** (if integrating with one of these frameworks)
+- [FiveM Server](https://fivem.net)
+- [MySQL Database](https://www.mysql.com/downloads/)
+- **Optional**: ESX or QBCore framework integration
 
-### Step-by-Step Setup
+### Step-by-Step Installation
 
-1. **Clone the Repository:**
+1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/your-username/inviFramework.git
    ```
 
-2. **Move Files:**
-
+2. **Move Files**:  
    Place the `inviFramework` folder into your `resources` directory.
 
-3. **Database Setup:**
-
-   Import the `inviFramework.sql` file into your MySQL database:
+3. **Database Setup**:  
+   Import the included `inviFramework.sql` file into your MySQL database:
 
    ```bash
-   mysql -u username -p database_name < inviFramework.sql
-   ```
-
-4. **Add to Server Config:**
-
-   Add the following lines to your `server.cfg`:
-
-   ```cfg
-   ensure inviFramework
-   ```
-
-5. **Configure Settings:**
-
-   Edit the `config.lua` file to customize settings such as jobs, economy, and server rules.
-
-## Configuration
-
-The `config.lua` file contains key settings:
-
-- **Job System:** Configure custom jobs like police, EMS, or mechanic.
-- **Economy:** Customize the economy system, including taxes, salaries, and transactions.
-- **Permissions:** Set up user roles, permissions, and administrative commands.
-- **Security:** Adjust anti-cheat and security measures to protect the server from abuse.
-
-## Usage
-
-Once the framework is installed, start your FiveM server:
-
-```bash
-start inviFramework
-```
-
-You can interact with the framework using in-game commands and by accessing the administrative panel via:
-
-```
-/admin
-```
-
-### Basic Commands
-
-| Command        | Description                      |
-|----------------|----------------------------------|
-| `/job`         | Manage jobs for players          |
-| `/paycheck`    | Trigger a paycheck for all jobs  |
-| `/setrole`     | Set a role for a player (admin)  |
-
-For a complete list of commands, check the `docs/commands.md` file.
-
-## Contributing
-
-We welcome contributions from the community! If you want to contribute to this project:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bug fix.
-3. Submit a pull request.
-
-Be sure to check the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-You can customize the sections and information to reflect your specific framework and server setup. Let me know if you'd like to add any other sections or need further adjustments!
+  
