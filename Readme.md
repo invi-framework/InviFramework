@@ -24,6 +24,9 @@
 - 🗨️ **Dynamic Chat System**: Supports voice chat, text chat, and various communication modes (radio, megaphone, etc.).
 - 🌐 **Multi-language Support**: Localization ready for multiple languages.
 
+## RELEASE
+** COMING 2025 **
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
