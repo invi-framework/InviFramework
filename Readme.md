@@ -1,6 +1,6 @@
 # InviFramework - A framework for FiveM Roleplaying
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KDzTXWnXMms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Video Preview](invigifche.gif)
 
 <!-- Optional: Add a logo or banner image -->
 
